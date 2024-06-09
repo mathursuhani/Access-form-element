@@ -1,0 +1,41 @@
+#d4{
+    width: 275px;
+    height: 130px;
+    background-color:rgb(153, 164, 241);
+    border: 6px solid rgb(27, 4, 127);
+    margin: 20px 20px;
+    border-radius: 7px;
+    
+}
+h1{
+    color:rgb(3, 48, 56);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px 35px;
+    margin-bottom: 20px;
+    font-weight: 20px;
+    font-size: 14px;
+}
+#l7{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 5px;
+    color:rgb(3, 32, 32);
+    margin: 0px 75px;
+}
+#n7{
+    height: 22px;
+    border: 3px solid rgb(3, 32, 32);
+    padding-left: 10px;
+    color: black;
+    border-radius: 4px;
+    margin: 5px 43px;
+}
+#sum4{
+    border: 2px solid;
+    background: rgb(136, 211, 136);
+    margin:2px 102px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 32, 32);
+    font-size: 14px;
+    
+}

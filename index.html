@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Access Form Elements</title>
+        <link href="areaoftriangle.css" rel="stylesheet">
+        <link href="simpleinterest.css" rel="stylesheet">
+        <link href="areacircle.css" rel="stylesheet">
+        <link href="volumesphere.css" rel="stylesheet">
+        <link href="volumecylinder.css" rel="stylesheet">
+        <script>
+
+        </script>       
+        
+    </head>
+    <body>
+        <div class="box" id="d1">
+            
+            <h1>Calculate Area Of Triangle</h1>
+            <form onsubmit="return submitForm()">
+            <label id="l1" class="l12">Base</label><br>
+            <input id=n1 class=n12 type="text" name="num1" placeholder="Enter Base"><br>
+            <label id="l2" class="l12">Perpendicular Height</label><br>
+            <input id=n2 class=n12 type="text" name="num2" placeholder="Enter Height"><br> 
+            <input id=sum1 type="Submit" value="Submit">
+            </form>
+            
+         
+        </div>        
+        <div  class="box" id="d2">
+            
+            <h1>Calculate Simple Interest</h1>
+            <form onsubmit="return subForm()">
+            <label id="l3" class="l345">Principal Amount</label><br>
+            <input id="n3" class="n345" type="text" name="num1" placeholder="Enter Principal"><br>
+            <label id="l4" class="l345">Annual Interest Rate</label><br>
+            <input id="n4" class="n345" type="text" name="num2" placeholder="Enter Rate"><br> 
+            <label id="l5" class="l345">Times(in years)</label><br>
+            <input id="n5" class="n345" type="text" name="num2" placeholder="Enter Time"><br>
+            <input id=sum2 type="Submit" value="Submit">
+            </form>
+            
+             
+        </div>
+        <div class="box" id="d3">
+            <h1>Calculate Area Of Circle</h1>
+            <form onsubmit="return mitForm()">
+            <label id="l6" >Radius Of Circle</label><br>
+            <input id="n6"  type="text" name="num1" placeholder="Enter Radius"><br>
+            <input id=sum3 type="Submit" value="Submit">
+            </form> 
+        </div>
+        <div class="box" id="d4">
+            <h1>Calculate Volume Of Sphere</h1>
+            <form onsubmit="return myForm()">
+            <label id="l7" >Radius Of Sphere</label><br>
+            <input id="n7"  type="text" name="num1" placeholder="Enter Radius"><br>
+            <input id="sum4" type="Submit" value="Submit">
+            </form> 
+        </div>
+        <div class="box" id="d5">
+            
+            <h1>Calculate Volume Of Cylinder</h1>
+            <form onsubmit="return Form()">
+            <label id="l8" class="l89">Radius</label><br>
+            <input id=n8 class="n89" type="text" name="num1" placeholder="Enter Radius"><br>
+            <label id="l9" class="l89">Height</label><br>
+            <input id=n9 class="n89" type="text" name="num2" placeholder="Enter Height"><br> 
+            <input id=sum5 type="Submit" value="Submit">
+            </form>
+                    
+                 
+        </div>            
+                
+                
+        <script src="areaoftriangle.js"></script>
+        <script src="simpleinterest.js"></script>
+        <script src="areacircle.js"></script>
+        <script src="volumesphere.js"></script>
+        <script src="volumecylinder.js"></script>           
+        </body>
+</html>
